@@ -5,8 +5,8 @@ import mediapipe as mp
 
 class PoseDetector:
     def __init__(self):
-        self.mp_pose = mp.solutions.pose          # ✅ Store the pose module
-        self.pose = self.mp_pose.Pose()           # ✅ Initialize the Pose object
+        self.mp_pose = mp.solutions.pose          
+        self.pose = self.mp_pose.Pose()           
         self.mp_draw = mp.solutions.drawing_utils
         self.results = None
 
